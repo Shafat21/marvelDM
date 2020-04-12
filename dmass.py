@@ -14,7 +14,7 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await.client.change_presence(status=discord.Status.online, activity=discord.Game(''))
+    await.client.change_presence(status=discord.Status.online, activity=discord.Game('Hello There'))
     print('Bot is Online')
 
 @client.event
