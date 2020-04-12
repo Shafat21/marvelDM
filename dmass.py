@@ -38,10 +38,10 @@ async def send(ctx, *, content: str):
         for member in ctx.message.server.members:
             try:
                 await client.send_message(member, content)
-                await client.say("Shafat Bot Said DM Sent To : {} :white_check_mark:  ".format(member))
+                await client.say("Shafat made the Bot Said DM Sent To : {} :white_check_mark:  ".format(member))
             except:
                 print("can't")
-                await client.say("Shafat Bot Said DM can't Sent To : {} :x: ".format(member))
+                await client.say("Shafat Made the Bot Said DM can't Sent To : {} :x: ".format(member))
 
 
 client.run("Njk4OTIwODIzOTg5MjA3MTA2.XpM20A.Y8dUgHr5t1L5wR43x-gqzKXJPVA")                
