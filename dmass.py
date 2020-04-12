@@ -12,14 +12,9 @@ client = commands.Bot(command_prefix = '+', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
 
-
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.online, activity=discord.Game('Hello'))
-    print ('Bot is Online')
-
-@client.event
-async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
