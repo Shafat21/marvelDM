@@ -45,4 +45,4 @@ async def send(ctx, *, content: str):
                 await client.say("Shafat Made the Bot Said DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NjMyMjMzNzQzODcyMTYzODQx.XpRtjA.gyvmpYvc9JfcnBt_DLivqSfzeYY")                
+client.run("Njk4OTIwODIzOTg5MjA3MTA2.XphsVQ.f0v4sRs1Sg07ZcN_R12IOS39CoI")                
